@@ -9,5 +9,3 @@ def exec_solution(func):
             print(f'result: {func(file_content)}')
     except FileNotFoundError as E:
         print(E)
-    except ValueError:
-        print('Error with file content')
